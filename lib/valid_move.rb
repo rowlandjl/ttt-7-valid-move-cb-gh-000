@@ -1,5 +1,9 @@
 def valid_move?(board, index)
-  !board[index].nil?
+  if board[index] == nil 
+    false 
+  else 
+    true 
+  end
 end
 
 def position_taken?(board, index)
