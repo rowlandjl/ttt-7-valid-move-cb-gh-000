@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-
+  board[index].nil?
 end
 
 def position_taken?(board, index)
